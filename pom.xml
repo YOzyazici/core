@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -94,16 +94,16 @@
 		</repository>
 	</distributionManagement>
 	<scm>
-		<connection>scm:git:git://github.com/YOzyazici/core.git</connection>
-		<developerConnection>scm:git:ssh://github.com/YOzyazici/core.git</developerConnection>
-		<url>http://github.com/YOzyazici/core.git</url>
+		<connection>scm:git:git://github.com/YOzyazici/microservice-core.git</connection>
+		<developerConnection>scm:git:ssh://github.com/YOzyazici/microservice-core.git</developerConnection>
+		<url>http://github.com/YOzyazici/microservice-core.git</url>
 	</scm>
 	<developers>
 		<developer>
 			<name>Yasin Ozyazici</name>
 			<email>yasinzc75@gmail.com</email>
 			<organization>io.github.yozyazici</organization>
-			<organizationUrl>http://github.com/YOzyazici/core/</organizationUrl>
+			<organizationUrl>http://github.com/YOzyazici/microservice-core/</organizationUrl>
 		</developer>
 	</developers>
 	<properties>
@@ -196,16 +196,5 @@
 			<artifactId>spring-data-jpa</artifactId>
 		</dependency>
 	</dependencies>
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>org.springframework.cloud</groupId>
-				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>${spring-cloud.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
 
 </project>
